@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name:code action
-        uses: actions/checkout@v3
-      -name:files are there
+        uses:actions/checkout@v3
+      - name:files are there
         run:ls
