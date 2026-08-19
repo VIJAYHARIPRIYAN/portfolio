@@ -5,11 +5,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name:  code action
-        uses: actions/checkout@v3
-      - name : moving into potofolio
-        working-directory : ./potofolio
+      - name: code-action
+        uses: actions/checkout@v4
+
       - name: buliding
+        working-directory : ./potofolio
         run: |
              ls -la
              test -f index.html
