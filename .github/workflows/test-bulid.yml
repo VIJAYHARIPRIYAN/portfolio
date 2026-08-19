@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name:code action
-        uses:actions/checkout@v3
-      - name:files are there
-        run:ls
+      - name:  code action
+        uses: actions/checkout@v3
+      - name: files are there
+        run: ls
