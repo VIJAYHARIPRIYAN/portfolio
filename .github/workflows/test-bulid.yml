@@ -7,5 +7,5 @@ jobs:
     steps:
       - name:  code action
         uses: actions/checkout@v3
-      - name: files are there
-        run: ls
+      - name: iam going start code
+        run: npm run start
