@@ -7,6 +7,8 @@ jobs:
     steps:
       - name:  code action
         uses: actions/checkout@v3
+      - name : moving into potofolio
+        run: cd potofolio
       - name: Install dependencies
         run: npm install
       - name: iam going start code
