@@ -1,6 +1,7 @@
 name: bulid test run potofpolio
-on:
- workflow_dispatch:
+push:
+ branches:
+   - main
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,6 +12,5 @@ jobs:
       - name: buliding
         working-directory : ./potofolio
         run: |
-             ls -la
              test -f index.html
              test -f photo.jpg
