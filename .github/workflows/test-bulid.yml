@@ -7,5 +7,7 @@ jobs:
     steps:
       - name:  code action
         uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
       - name: iam going start code
         run: npm run start
