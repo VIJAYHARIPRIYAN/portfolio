@@ -8,10 +8,7 @@ jobs:
       - name:  code action
         uses: actions/checkout@v3
       - name : moving into potofolio
-        run: |
-             cd potofolio
-             pwd
-             ls
+        working-directory : ./potofolio
       - name: buliding
         run: |
              ls -la
