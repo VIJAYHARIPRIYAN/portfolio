@@ -1,0 +1,11 @@
+name: bulid test run potofpolio
+on:
+ workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install
+        run: npm install
+      - name: Run tests
+        run: npm test
